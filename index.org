@@ -1,3 +1,4 @@
+#+TITLE: Git Notes
 * Caveat
 A brief aside, none of this material is meant to be comprehensive. If there are
 things you don't understand or seem incomplete then use your google fu. There's
@@ -11,9 +12,9 @@ want to use some kind of diffing tool, such as Apple's FileMerge to help you
 make sense of how your changes fit into everyone else's contributions.
 
 You'll want to start by making a GitHub account, downloading GitKraken, and then
-going through Krakens onboarding screens. After that you'll want to fork graz's
+going through Krakens onboarding screens. After that you'll want to fork Tim's
 repository on GitHub, clone your fork onto your development machine, and add
-graz's repo as your upstream remote.
+Tim's repo as your upstream remote.
 
 * TODO Git
 Git is a version control system that helps people keep track of the changes in
@@ -57,14 +58,14 @@ particularly adventurous.
    2. Check one more time that the feature you've added works.
    3. Create a new pull repuest.
    4. Write an appropriate name and description.
-   5. Make sure graz knows about the pull request.
+   5. Make sure Tim knows about the pull request.
    6. Wait for him to review it.
-   7. Keep an eye on the requests discussion thread for comments from graz or
+   7. Keep an eye on the requests discussion thread for comments from Tim or
       the others.
    8. In the event that a team member notices a problem with the request, make
       any required changes and [[Commit & Push] to your repository. Those changes
       should be added to your pull request automatically.
-   9. Once your pull requested is accepted and merged, graz will make sure
+   9. Once your pull requested is accepted and merged, Tim will make sure
       everyone is notified that they should [[Pull] from the main repository so
       that your changes are distributed.
 
