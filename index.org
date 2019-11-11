@@ -1,0 +1,72 @@
+* Caveat
+A brief aside, none of this material is meant to be comprehensive. If there are
+things you don't understand or seem incomplete then use your google fu. There's
+a ton of good material that is going to be much better written and more
+comprehensive than this.
+
+* TODO Overview
+You'll be using GitHub to host your repositories and to coordinate pull
+requests, and you will be using GitKraken to interact with git. You May also
+want to use some kind of diffing tool, such as Apple's FileMerge to help you
+make sense of how your changes fit into everyone else's contributions.
+
+You'll want to start by making a GitHub account, downloading GitKraken, and then
+going through Krakens onboarding screens. After that you'll want to fork graz's
+repository on GitHub, clone your fork onto your development machine, and add
+graz's repo as your upstream remote.
+
+* TODO Git
+Git is a version control system that helps people keep track of the changes in
+their code over time, as well as allowing multiple people to collaborate on the
+same code base. It's made of fairly simple building blocks that can be put
+together in many, sometimes complicated, ways. The problem space of keeping
+track of contributions to a code base, coordinating and merging changes, and
+even just answering the question "who touched these couple of lines last?" is
+very large and pretty complicated. With very few exceptions, code is much more
+complicated than a google doc.
+
+Git is a command line program with many weird gotchas and complexities. Thus
+many people use a GUI git client that lets them use git as a more friendly,
+'traditional' application to smooth over these edges. While it is absolutely
+worth your time to actually learn to use git from the terminal, and all it's
+associated complexities, this is beyond the scope of my abilities. You'll have
+to travel that path later in your programming career, unless you're feeling
+particularly adventurous.
+
+* TODO Github
+
+* TODO GitKraken
+
+* TODO Working with Others
+
+* Checklists
+** Committing & Pushing
+   1. Save
+   2. Run your code to make sure it works
+   3. Run your test suite, make sure everything is green
+   4. Write a commit message (first line should be at most one sentence, more
+      detail goes on subsequent lines as needed)
+   5. Hit commit
+   6. (Optional) Realise that you misspelled one thing and hurridly make a
+      second commit fixing the issue. Repeat as needed.
+   7. Push your commit(s) to your repository on github.
+   8. Inform the group know that you've pushed something new.
+
+** Making Pull Request
+   1. Follow checklist for [[Committing & Pushing]].
+   2. Check one more time that the feature you've added works.
+   3. Create a new pull repuest.
+   4. Write an appropriate name and description.
+   5. Make sure graz knows about the pull request.
+   6. Wait for him to review it.
+   7. Keep an eye on the requests discussion thread for comments from graz or
+      the others.
+   8. In the event that a team member notices a problem with the request, make
+      any required changes and [[Commit & Push] to your repository. Those changes
+      should be added to your pull request automatically.
+   9. Once your pull requested is accepted and merged, graz will make sure
+      everyone is notified that they should [[Pull] from the main repository so
+      that your changes are distributed.
+
+** TODO Pulling
+   Pulling is more delicate.
